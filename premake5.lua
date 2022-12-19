@@ -1,8 +1,7 @@
-project "GLFW"
+project "glfw"
     kind "StaticLib"
     language "C"
     location ""
-    toolset "v142"
     
     includedirs
     {
