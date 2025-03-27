@@ -2,6 +2,7 @@ project "glfw"
     kind "StaticLib"
     language "C"
     location ""
+    architecture "x64"
     
     includedirs
     {
