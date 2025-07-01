@@ -1,8 +1,10 @@
 project "glfw"
     kind "StaticLib"
     language "C"
-    location ""
     architecture "x64"
+
+    targetdir ("%{wks.location}/bin/" .. outputdir .. "/%{prj.name}")
+    objdir    ("%{wks.location}/bin-int/" .. outputdir .. "/%{prj.name}")
     
     includedirs
     {
